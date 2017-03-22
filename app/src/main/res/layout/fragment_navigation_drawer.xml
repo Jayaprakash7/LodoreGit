@@ -1,0 +1,244 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3b559">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e3b559"
+        android:orientation="vertical"
+        tools:context="lodore.com.lodore.Fragment.NavigationDrawerFragment">
+
+        <!--<android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:layout_margin="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.97"
+                android:paddingEnd="10dp"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:gravity="end"
+                android:id="@+id/nav_home"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home_black_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.97"
+                android:gravity="end"
+                android:paddingEnd="10dp"
+                android:layout_height="wrap_content"
+                android:text="Prefume"
+                android:id="@+id/nav_perfume"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/perfume_img"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.97"
+                android:gravity="end"
+                android:paddingEnd="10dp"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:id="@+id/nav_contact_us"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/contact_us"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.97"
+                android:gravity="end"
+                android:paddingEnd="10dp"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:id="@+id/nav_about_us"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/about_us"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.97"
+                android:gravity="end"
+                android:paddingEnd="10dp"
+                android:layout_height="wrap_content"
+                android:text="My Account"
+                android:id="@+id/nav_my_account"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/my_account"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.97"
+                android:gravity="end"
+                android:paddingEnd="10dp"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/nav_login"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_keyboard_backspace_black_24dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:layout_margin="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_txt1"
+                android:text="Register"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:gravity="end"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_txt2"
+                android:text="Brands"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:gravity="end"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_txt3"
+                android:text="Blog"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:gravity="end"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_txt4"
+                android:text="product details"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:gravity="end"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_txt5"
+                android:text="Brand details"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:gravity="end"/>
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nav_txt6"
+                android:text="txt6"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:gravity="end"/>
+    -->
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

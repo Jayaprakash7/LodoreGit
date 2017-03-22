@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LODORE</string>
+    <string name="action_search">Search</string>
+    <string name="action_cart">Cart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="home_header">تستخدم احرف الهجاء العربية لكتابة العديد من اللغات الآسيوية والأفريقية، لكتابة العديد من اللغات الآسيوية والأفريقية، م</string>
+    <string name="login_name">تسجيل الدخول</string>
+    <string name="abt_us_txt1">اسمي براديب أنا الهندي</string>
+    <string name="abt_us_txt2">تم تشخيص  اشانتيمع سرطان الثدي وتطوير عضلة
+        القلب الناجم عن العلاج
+        الكيماوي، مما يمكن
+        أن يؤدي إلى فشل القلب
+        الاحتقاني. حصلت على جهاز
+        القلب لمساعدتها على
+        التعامل مع حالتها.
+        الجهاز والأدوية قلبها قد
+        تحسنت بشكل ملحوظ نوعية حياتها.  </string>
+
+    <string name="blogtxt">القلب الناجم عن العلاج
+                        الكيماوي، مما يمكن
+                     أن يؤدي إلى فشل القلب
+ </string>
+
+    <string name="contact_us">أنا أحب أمي كثيرا فهي إله</string>
+
+    <string name="yes">Contuning Shopping</string>
+    <string name="no"> Confirm Order</string>
+
+    <string name="item">بند</string>
+    <string name="quantity">كمية</string>
+    <string name="price">السعر</string>
+    <string name="header"> والأفريقية، لكتابة العديد من اللغات الآسيوية والأفريقية</string>
+
+</resources>
